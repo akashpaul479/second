@@ -21,5 +21,6 @@ func main() {
 	//loops.Loops1()
 	//loops.Loops2()
 	//loops.Loops3()
-	loops.Loops4()
+	//loops.Loops4()
+	loops.Loop5()
 }
