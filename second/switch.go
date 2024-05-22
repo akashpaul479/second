@@ -4,8 +4,8 @@ import "fmt"
 
 func Second() {
 	fmt.Printf("Enter a number:")
-	var a int
-	fmt.Scanln(&a)
+	var a, b int
+	fmt.Scanln(&a, &b)
 	switch a {
 	case 0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20:
 		fmt.Print("the value is even")
